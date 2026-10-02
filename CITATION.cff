@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and, once available, the Zenodo archive DOI."
+title: "Tainan aquaculture microbiome reproducibility repository"
+type: software
+version: 1.0.2
+date-released: 2026-10-02
+repository-code: "https://github.com/Ray60115/Tainan-aquaculture-microbiome-repository"
+authors:
+  - family-names: Hsu
+    given-names: Po-Jui
+  - family-names: Wang
+    given-names: Min-Chen
+  - family-names: Liu
+    given-names: Chuan-Chuan
+  - family-names: Pan
+    given-names: Chien-Yuan
+  - family-names: Tseng
+    given-names: Yung-Che
+  - family-names: Hsiung
+    given-names: Kuan-Mei
+identifiers:
+  - type: other
+    value: "PRJNA1513996"
+    description: "NCBI BioProject"
