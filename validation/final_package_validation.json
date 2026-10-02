@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checked_invariants": {
+    "workflow_inputs": 204,
+    "workflow_QC_rows": 204,
+    "workflow_feature_columns": 199,
+    "formal_libraries": 190,
+    "formal_libraries_with_SAMN_and_SRR": 190,
+    "canonical_profiles": 168,
+    "pond_months": 93,
+    "complete_layer_pairs": 75,
+    "season_model_samples": 160,
+    "season_model_pond_months": 89,
+    "grow_out_season_samples": 122,
+    "grow_out_season_pond_months": 70,
+    "starting_ASVs": 29461,
+    "retained_prokaryotic_ASVs": 23896,
+    "resolved_genus_lineages": 2673,
+    "selected_top30_combined_grow_out_abundance_percent": 2.285428592,
+    "abundance_bin_0.01_to_0.03_median_prevalence_range": 30.3140096618,
+    "predicted_MetaCyc_pathways": 556,
+    "blank_screened_PICRUSt2_ASVs": 23787,
+    "blank_screened_MetaCyc_pathways": 555,
+    "blank_screened_pairwise_Bray_Curtis_spearman_rho": 0.9998773041652059,
+    "blank_screened_significance_classification_changes": 0
+  },
+  "warnings": []
+}

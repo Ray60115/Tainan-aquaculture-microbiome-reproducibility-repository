@@ -1,0 +1,7 @@
+Response,Factor,Dataset,Unit,n,F,Partial_R2,p_value,q_value,Permutations,Restriction
+Nitrate reduction,Season,Grow-out ponds,Pond-month mean module score,70,3.1080587130498736,0.12716373548411694,0.1929,0.2985,9999,Circular shifts of season labels within pond
+Sulfur oxidation and assimilation,Season,Grow-out ponds,Pond-month mean module score,70,0.391649005874156,0.01802758684720952,0.6753,0.81036,9999,Circular shifts of season labels within pond
+Methanogenesis,Season,Grow-out ponds,Pond-month mean module score,70,0.11792642176839341,0.005497412418417389,0.9873,0.9873,9999,Circular shifts of season labels within pond
+C1 assimilation and oxidation,Season,Grow-out ponds,Pond-month mean module score,70,3.633056752068861,0.14551790385559596,0.0072,0.0432,9999,Circular shifts of season labels within pond
+Fermentation and short-chain products,Season,Grow-out ponds,Pond-month mean module score,70,2.4657851711997103,0.10360825636168204,0.0329,0.0987,9999,Circular shifts of season labels within pond
+Compatible-solute metabolism,Season,Grow-out ponds,Pond-month mean module score,70,1.3762542081695093,0.06060234276181104,0.199,0.2985,9999,Circular shifts of season labels within pond

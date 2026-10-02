@@ -1,0 +1,24 @@
+{
+  "interpretation": "Sensitivity analysis only: the single Water blank was excluded from biological analyses, and ASVs conservatively flagged as blank-enriched were removed without claiming formal contaminant status.",
+  "common_samples": 168,
+  "union_pathways": 556,
+  "pairwise_pathway_bray_curtis_correlation": {
+    "n": 14028,
+    "pearson_r": 0.9999333274143513,
+    "spearman_rho": 0.9998773041652059
+  },
+  "within_sample_primary_vs_screened_bray_curtis": {
+    "median": 7.913805680424183e-05,
+    "q1": 3.4641166250586915e-05,
+    "q3": 0.00020492931615231954,
+    "maximum": 0.007675747938008507
+  },
+  "functional_test_significance": {
+    "significance_metric": "Benjamini–Hochberg q-value for adjusted test families; otherwise the prespecified p-value",
+    "comparisons_with_both_values": 22,
+    "significance_class_concordance_at_0.05": 1.0,
+    "classification_changes": 0
+  },
+  "module_score_minimum_pearson_r": 0.9996701426628728,
+  "module_score_minimum_spearman_rho": 0.9994862346313294
+}

@@ -1,0 +1,26 @@
+Cohort,Samples,Pond_month_groups,Algorithm,Predictor_set,PCoA1_R2,PCoA2_R2,Mean_R2,Delta_mean_R2,PCoA1_MAE,PCoA2_MAE,Mean_MAE
+grow_out_only,122,70,Mean-only baseline,None,-0.0054,-0.0146,-0.01,,0.0844,0.1222,0.1033
+grow_out_only,122,70,Ridge,Structure,0.0463,-0.0438,0.0012,,0.0829,0.1224,0.1027
+grow_out_only,122,70,Ridge,+ Season,0.0646,0.5017,0.2832,0.2819,0.0802,0.0896,0.0849
+grow_out_only,122,70,Ridge,+ Water quality,0.3607,0.4607,0.4107,0.1276,0.0648,0.0928,0.0788
+grow_out_only,122,70,Ridge,+ Disturbances,0.2857,0.5342,0.41,-0.0008,0.0671,0.0822,0.0746
+grow_out_only,122,70,Random forest,Structure,0.0514,-0.0252,0.0131,,0.0821,0.12,0.101
+grow_out_only,122,70,Random forest,+ Season,0.6303,0.5261,0.5782,0.5651,0.049,0.087,0.068
+grow_out_only,122,70,Random forest,+ Water quality,0.505,0.5548,0.5299,-0.0483,0.0601,0.0813,0.0707
+grow_out_only,122,70,Random forest,+ Disturbances,0.5001,0.5732,0.5367,0.0068,0.0603,0.0786,0.0694
+grow_out_only,122,70,Gradient boosting,Structure,0.0519,-0.0311,0.0104,,0.0822,0.1205,0.1014
+grow_out_only,122,70,Gradient boosting,+ Season,0.4907,0.6005,0.5456,0.5352,0.0589,0.0776,0.0682
+grow_out_only,122,70,Gradient boosting,+ Water quality,0.4083,0.5974,0.5029,-0.0427,0.0666,0.077,0.0718
+grow_out_only,122,70,Gradient boosting,+ Disturbances,0.4534,0.6056,0.5295,0.0266,0.0636,0.0756,0.0696
+grow_out_only,122,70,XGBoost,Structure,0.0515,-0.0321,0.0097,,0.0823,0.121,0.1017
+grow_out_only,122,70,XGBoost,+ Season,0.4898,0.6131,0.5514,0.5417,0.0585,0.076,0.0673
+grow_out_only,122,70,XGBoost,+ Water quality,0.4014,0.5871,0.4942,-0.0572,0.0666,0.0782,0.0724
+grow_out_only,122,70,XGBoost,+ Disturbances,0.4483,0.5997,0.524,0.0298,0.0636,0.0758,0.0697
+grow_out_only,122,70,Support vector regression,Structure,-0.0224,-0.0424,-0.0324,,0.0817,0.1205,0.1011
+grow_out_only,122,70,Support vector regression,+ Season,0.3609,0.4507,0.4058,0.4382,0.0647,0.0926,0.0786
+grow_out_only,122,70,Support vector regression,+ Water quality,0.3517,0.5615,0.4566,0.0508,0.0657,0.0796,0.0726
+grow_out_only,122,70,Support vector regression,+ Disturbances,0.3316,0.6267,0.4791,0.0225,0.067,0.0741,0.0706
+grow_out_only,122,70,Generalized additive model,Structure,0.0466,-0.0431,0.0018,,0.0829,0.1223,0.1026
+grow_out_only,122,70,Generalized additive model,+ Season,0.0501,0.4737,0.2619,0.2601,0.081,0.091,0.086
+grow_out_only,122,70,Generalized additive model,+ Water quality,0.3494,0.4969,0.4232,0.1613,0.0651,0.0862,0.0757
+grow_out_only,122,70,Generalized additive model,+ Disturbances,0.3468,0.5647,0.4558,0.0326,0.0623,0.0744,0.0684

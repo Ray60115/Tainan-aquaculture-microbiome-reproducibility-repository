@@ -1,0 +1,53 @@
+{
+  "formal_samples": 168,
+  "pond_months": 93,
+  "growout_pond_months_total": 73,
+  "growout_pond_months_in_season_models": 70,
+  "predicted_pathways": 556,
+  "prespecified_modules": 6,
+  "profile_pcoa_positive_axis_variance_percent": {
+    "PCoA1": 39.08097760130419,
+    "PCoA2": 12.787139830448242
+  },
+  "turnover_association": {
+    "n_transitions": 89,
+    "n_ponds": 4,
+    "raw_spearman_rho": 0.8062478719782091,
+    "raw_spearman_p_unrestricted_descriptive": 1.5378394383777316e-21,
+    "pond_adjusted_rank_correlation": 0.8077617512097599,
+    "restricted_two_sided_p": 0.0001,
+    "permutations": 9999,
+    "restriction": "Independent circular shifts of functional-turnover values within each pond",
+    "interpretation_guardrail": "The predicted functional profiles are derived from the same 16S composition and therefore do not provide independent validation of functional activity."
+  },
+  "picrust2_qc": {
+    "input_ASVs": 23896,
+    "placed_ASVs_with_domain_assignment": 23895,
+    "ASVs_retained_in_metagenome_step": 23394,
+    "best_domain_counts": {
+      "bac": 23554,
+      "arc": 341
+    },
+    "ASVs_above_default_NSTI_2": 501,
+    "weighted_NSTI": {
+      "minimum": 0.0407246211151377,
+      "q1": 0.14636516490856746,
+      "median": 0.1647769415227904,
+      "q3": 0.18312617726264807,
+      "maximum": 0.2565470504042797
+    },
+    "retained_read_fraction": {
+      "minimum": 0.7711677544540483,
+      "q1": 0.9262089243681708,
+      "median": 0.9645125635371381,
+      "q3": 0.9868402496283633,
+      "maximum": 0.9990723831057773
+    }
+  },
+  "input_sha256": {
+    "path_abun_unstrat.tsv.gz": "fc4d6456c181a4e755b2b8db9a3b27f40d864acccb62c099dea5b23f76ec5b3c",
+    "pathway_module_definitions.csv": "8cfb0233df529faef21db919c6872fb5b6000bf44316f4db5d376ba9f4d1b1ba",
+    "sample_metadata_168.csv": "45466ff6048b9195dc4b65f5e0e188794ab153c66ef5b6c0822fa6b92c3c7d5b"
+  },
+  "interpretation": "All functional results represent PICRUSt2-inferred genomic potential from 16S profiles, not measured genes, transcripts, proteins, metabolites, process rates, or pathway activity."
+}

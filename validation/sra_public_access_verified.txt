@@ -1,0 +1,10 @@
+NCBI public-access verification
+Verification date: 2026-10-02
+Access mode: logged-out public view
+BioProject: PRJNA1513996
+BioProject URL: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1513996
+SRA study: SRP727697
+SRA study URL: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP727697
+Observed BioProject count: 190 SRA experiments
+Verification result: all 190 formal libraries and their assigned BioSample and
+SRA run accessions were publicly accessible.

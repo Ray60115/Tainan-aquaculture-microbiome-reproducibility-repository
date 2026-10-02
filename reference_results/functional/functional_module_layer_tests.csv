@@ -1,0 +1,7 @@
+Response,Factor,Dataset,Unit,n_pairs,Median_paired_difference_bottom_minus_surface,Wilcoxon_W,p_value,q_value,Restriction
+Nitrate reduction,Sampling layer,All ponds,Complete surface-bottom pond-month pair,75,0.16884053165430563,383.0,3.747828818479683e-08,1.124348645543905e-07,Explicit within-pond-month pairing
+Sulfur oxidation and assimilation,Sampling layer,All ponds,Complete surface-bottom pond-month pair,75,-0.07985030296574491,868.0,0.003268693323796039,0.004903039985694059,Explicit within-pond-month pairing
+Methanogenesis,Sampling layer,All ponds,Complete surface-bottom pond-month pair,75,0.6770830981949629,230.0,2.7855738444070447e-10,1.6713443066442268e-09,Explicit within-pond-month pairing
+C1 assimilation and oxidation,Sampling layer,All ponds,Complete surface-bottom pond-month pair,75,0.02054781467918576,1214.0,0.2651944732096536,0.2651944732096536,Explicit within-pond-month pairing
+Fermentation and short-chain products,Sampling layer,All ponds,Complete surface-bottom pond-month pair,75,0.1052494940643458,628.0,2.569535094075933e-05,5.139070188151866e-05,Explicit within-pond-month pairing
+Compatible-solute metabolism,Sampling layer,All ponds,Complete surface-bottom pond-month pair,75,0.08522905705520128,884.0,0.004279606877371925,0.00513552825284631,Explicit within-pond-month pairing

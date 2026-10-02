@@ -1,0 +1,35 @@
+
+    Parameters set for pb-16S-nf pipeline for PacBio HiFi 16S
+    =========================================================
+    Number of samples in samples TSV: 204
+    Filter input reads above Q: 20
+    Trim primers with cutadapt: Yes
+    Limit to N reads if exceeding N reads (0 = disabled): 0
+    Forward primer: AGRGTTYGATYMTGGCTCAG
+    Reverse primer: AAGTCGTAACAAGGTARCY
+    Minimum amplicon length filtered in DADA2: 1000
+    Maximum amplicon length filtered in DADA2: 1600
+    Using specified FASTQ for DADA2 error model: false
+    DADA2 OMEGA_C parameter (default 1e-40): 1e-40
+    maxEE parameter for DADA2 filterAndTrim: 2
+    minQ parameter for DADA2 filterAndTrim: 0
+    Pooling method for DADA2 denoise process: pseudo
+    Minimum number of samples required to keep any ASV: 1
+    Minimum number of reads required to keep any ASV: 5 
+    Taxonomy sequence database for VSEARCH: <HIFI16S_WORKFLOW_DIR>/databases/GTDB_ssu_all_r220.qza
+    Taxonomy annotation database for VSEARCH: <HIFI16S_WORKFLOW_DIR>/databases/GTDB_ssu_all_r220.taxonomy.qza
+    Skip Naive Bayes classification: false
+    SILVA database for Naive Bayes classifier: <HIFI16S_WORKFLOW_DIR>/databases/silva_nr99_v138.2_toSpecies_trainset.fa.gz
+    GTDB database for Naive Bayes classifier: <HIFI16S_WORKFLOW_DIR>/databases/GTDB_bac120_arc53_ssu_r220_fullTaxo.fa.gz
+    GreenGenes2 database for Naive Bayes classifier: <HIFI16S_WORKFLOW_DIR>/databases/gg2_2024_09_toSpecies_trainset.fa.gz
+    Database to prioritize for Naive Bayes classifier: GG2
+    VSEARCH maxreject: 100
+    VSEARCH maxaccept: 100
+    VSEARCH perc-identity: 0.97
+    QIIME 2 rarefaction curve sampling depth: null
+    Number of threads specified for cutadapt: 16
+    Number of threads specified for DADA2: 8
+    Number of threads specified for VSEARCH: 8
+    Script location for HTML report generation: <HIFI16S_WORKFLOW_DIR>/scripts/visualize_biom.Rmd
+    Container enabled via docker/singularity: false
+    Version of Nextflow pipeline: 0.9

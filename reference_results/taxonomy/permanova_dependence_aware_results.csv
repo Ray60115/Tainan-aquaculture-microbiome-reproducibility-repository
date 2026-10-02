@@ -1,0 +1,13 @@
+Dataset,Factor,Unit,n,F,Marginal_R2,Partial_R2,Incremental_total_R2,p_value,q_value,Permutations,Restriction
+All ponds,Pond,Pond-month mean community,93,,0.08915612808006912,,,,,0,Descriptive only; pond identity was not permuted
+Grow-out ponds,Pond,Pond-month mean community,73,,0.05237430953814535,,,,,0,Descriptive only; pond identity was not permuted
+Grow-out ponds,Season,Pond-month mean community,70,2.518123543932686,0.09935445332923126,0.1055752508909773,0.10001580130712624,0.0002,,9999,Circular shifts of season labels within pond
+All ponds,Layer,Complete surface-bottom pair,150,3.5896007841420214,0.0038079395371426053,0.04626394191830504,0.0038079395371426075,0.0001,,9999,Surface/bottom labels swapped only within pond-month
+All ponds,Typhoon,Pond-month mean community; sampling month permuted as a block,89,1.4927906545490166,0.019503732824199507,0.01809601351468763,0.01510642635035873,0.2901,0.5976,9999,Circular shifts of the complete monthly exposure sequence
+All ponds,ColdSurge,Pond-month mean community; sampling month permuted as a block,89,1.0161337010828273,0.01793520394356329,0.012389436751386533,0.010342615717839726,0.9292,0.9292,9999,Circular shifts of the complete monthly exposure sequence
+All ponds,Heatwave_Tmax_q90_3day,Pond-month mean community; sampling month permuted as a block,89,2.243630501473009,0.02396181240763944,0.026952578689288516,0.02249982542240677,0.2988,0.5976,9999,Circular shifts of the complete monthly exposure sequence
+All ponds,LowPressure,Pond-month mean community; sampling month permuted as a block,89,1.0312883676298235,0.01362646996108452,0.012571890410985888,0.010494926765179186,0.8869,0.9292,9999,Circular shifts of the complete monthly exposure sequence
+Grow-out ponds,Typhoon,Pond-month mean community; sampling month permuted as a block,70,1.5839115784440145,0.02411466242601121,0.02452486292224939,0.020780543071934547,0.3004,0.6008,9999,Circular shifts of the complete monthly exposure sequence
+Grow-out ponds,ColdSurge,Pond-month mean community; sampling month permuted as a block,70,1.0279312585703624,0.023300061032685136,0.016054419350504473,0.013603319776576289,0.9647,0.9647,9999,Circular shifts of the complete monthly exposure sequence
+Grow-out ponds,Heatwave_Tmax_q90_3day,Pond-month mean community; sampling month permuted as a block,70,2.411591518131336,0.028755688217751107,0.036867953556257244,0.031239159186281684,0.2682,0.6008,9999,Circular shifts of the complete monthly exposure sequence
+Grow-out ponds,LowPressure,Pond-month mean community; sampling month permuted as a block,70,1.034305218128326,0.017277287053248745,0.016152361060294766,0.013686308290122257,0.9246,0.9647,9999,Circular shifts of the complete monthly exposure sequence

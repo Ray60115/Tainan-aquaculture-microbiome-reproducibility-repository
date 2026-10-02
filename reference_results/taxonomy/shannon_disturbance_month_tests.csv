@@ -1,0 +1,5 @@
+Analysis,Unit,n_event_months,n_non_event_months,Effect,Effect_definition,p_value,Method,Permutation_scheme,q_value
+Typhoon,Sampling month after pond centering,2,26,0.09864035416945544,Difference in mean pond-centered Shannon (event - non-event),0.6785714285714286,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence,0.9047619047619048
+ColdSurge,Sampling month after pond centering,3,25,-0.5077743652724818,Difference in mean pond-centered Shannon (event - non-event),0.10714285714285714,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence,0.42857142857142855
+Heatwave_Tmax_q90_3day,Sampling month after pond centering,4,24,0.04720578393432429,Difference in mean pond-centered Shannon (event - non-event),0.9642857142857143,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence,0.9642857142857143
+LowPressure,Sampling month after pond centering,3,25,0.2846830580267006,Difference in mean pond-centered Shannon (event - non-event),0.42857142857142855,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence,0.8571428571428571

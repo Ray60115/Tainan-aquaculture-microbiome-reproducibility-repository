@@ -1,0 +1,7 @@
+Analysis,Unit,n,Statistic,Effect,Effect_definition,p_value,q_value,Method,Permutation_scheme
+Sampling layer,Complete surface-bottom pond-month pair,75,604.0,0.25668875173300254,Median paired difference (bottom - surface),1.4553689069311602e-05,,Two-sided Wilcoxon signed-rank test,Not applicable; explicit pairing
+Season within grow-out ponds,Pond-month mean,70,0.6129816055044681,0.02793095821384077,Partial R2 after pond identity,0.5759,,Partial F test,"9,999 circular shifts of season labels within pond"
+Typhoon,Sampling month after pond centering,28,,0.09864035416945544,Difference in mean pond-centered Shannon (event - non-event),0.6785714285714286,0.9047619047619048,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence
+ColdSurge,Sampling month after pond centering,28,,-0.5077743652724818,Difference in mean pond-centered Shannon (event - non-event),0.10714285714285714,0.42857142857142855,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence
+Heatwave_Tmax_q90_3day,Sampling month after pond centering,28,,0.04720578393432429,Difference in mean pond-centered Shannon (event - non-event),0.9642857142857143,0.9642857142857143,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence
+LowPressure,Sampling month after pond centering,28,,0.2846830580267006,Difference in mean pond-centered Shannon (event - non-event),0.42857142857142855,0.8571428571428571,Two-sided exact circular-shift test,All 28 circular shifts of the monthly exposure sequence

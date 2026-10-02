@@ -1,0 +1,14 @@
+{
+  "resolved_genus_level_lineages": 2673,
+  "resolved_lineage_mean_relative_abundance_percent": 90.92772662328177,
+  "ubiquitous_lineages_93_of_93": 7,
+  "persistent_lineages_at_least_84_of_93": 82,
+  "persistent_combined_mean_relative_abundance_percent": 53.77163403391337,
+  "abundance_prevalence_spearman_rho": 0.8592701302743575,
+  "selected_top30_combined_grow_out_mean_relative_abundance_percent": 2.285428592039764,
+  "selected_top30_maximum_individual_grow_out_mean_percent": 0.4119476224365304,
+  "selected_top30_median_seasonal_abundance_range_percentage_points": 0.05614566260693639,
+  "selected_top30_median_seasonal_prevalence_range_percentage_points": 61.59420289855072,
+  "persistent_median_seasonal_abundance_range_percentage_points": 0.3132315589723087,
+  "persistent_median_seasonal_prevalence_range_percentage_points": 11.111111111111114
+}

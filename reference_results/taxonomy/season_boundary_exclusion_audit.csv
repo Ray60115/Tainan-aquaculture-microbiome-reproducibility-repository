@@ -1,0 +1,4 @@
+Response,n,F,partial_R2,p_value,Sensitivity_definition,Excluded_pond_months,Permutations,Restriction
+Shannon diversity,70,0.6129816055044681,0.02793095821384077,0.5759,Primary season cohort excludes pond-month profiles that average sampling occasions assigned to different solar-term seasons,T1-202302; T2-202408; T3-202408; T4-202408,9999,Circular shifts within pond
+Community composition,70,2.518123543932686,0.1055752508909773,0.0002,Primary season cohort excludes pond-month profiles that average sampling occasions assigned to different solar-term seasons,T1-202302; T2-202408; T3-202408; T4-202408,9999,Circular shifts within pond
+Consecutive-sampling turnover,67,0.10192919797361263,0.004987907437815221,0.9629,Primary season cohort excludes pond-month profiles that average sampling occasions assigned to different solar-term seasons,T1-202302; T2-202408; T3-202408; T4-202408,9999,Circular shifts within pond

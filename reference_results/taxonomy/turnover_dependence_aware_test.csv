@@ -1,0 +1,2 @@
+Analysis,Unit,n,F,partial_R2,p_value,permutations,scheme
+Seasonal difference in grow-out turnover,Successive available pond-month transition,67,0.10192919797361277,0.004987907437815228,0.9629,9999,within_pond_circular

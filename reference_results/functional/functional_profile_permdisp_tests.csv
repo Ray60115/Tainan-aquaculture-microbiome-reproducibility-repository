@@ -1,0 +1,3 @@
+Dataset,Factor,n,F,p_value,Permutations,Restriction
+Grow-out ponds,Season,70,0.9463151630097527,0.4563,9999,Circular shifts of season labels within pond
+All ponds,Sampling layer,150,0.32029920095208736,0.3115,9999,Surface/bottom labels swapped only within pond-month
