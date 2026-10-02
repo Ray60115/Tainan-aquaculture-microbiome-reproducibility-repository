@@ -1,0 +1,11 @@
+metric	value	interpretation
+workflow_inputs	204	All inputs listed by the sequencing workflow
+formal_biological_libraries	190	Official analysis starts here
+excluded_G_designated	8	Not U/D water-column libraries
+excluded_water_blank	1	Water blank/control
+excluded_probiotic_reference	3	Reference samples
+excluded_seawater_reference	2	Reference samples
+canonical_profiles	168	Pond-month-layer profiles
+profiles_with_one_source_library	146	No within-month occasion averaging
+profiles_with_two_source_libraries	22	Two within-month sampling occasions averaged
+zero_nonchimeric_workflow_inputs	0	Expected 0

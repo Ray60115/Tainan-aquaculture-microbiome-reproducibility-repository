@@ -1,0 +1,17 @@
+metric	value	interpretation
+raw_ASV_records	29461.0	Starting feature count
+ASVs_absent_from_all_168_profiles	4242.0	Removed before biological analysis
+ASVs_positive_in_at_least_one_profile	25219.0	29,461 - 4,242
+positive_mitochondrial_ASVs	728.0	Excluded
+positive_chloroplast_ASVs	590.0	Excluded
+positive_explicitly_eukaryotic_ASVs	5.0	Excluded
+positive_organelle_or_eukaryotic_ASVs	1323.0	728 + 590 + 5
+invalid_sequence_ASVs	0.0	Expected 0
+retained_prokaryotic_ASVs	23896.0	25,219 - 1,323
+retained_archaeal_ASVs	15.0	Included in prokaryotic matrix
+retained_archaeal_read_fraction	7.323121972055499e-05	Fraction, not percent
+retained_archaeal_read_percent	0.007323121972055499	Matches 0.0073% in manuscript
+source_biological_libraries	190.0	Formal source-library cohort
+canonical_profiles	168.0	Pond-month-layer profiles
+maximum_aggregation_cell_difference	0.0	Expected 0
+nonmatching_aggregation_cells	0.0	Expected 0
