@@ -1,0 +1,77 @@
+Placement compatibility record
+==============================
+
+Primary input
+-------------
+23,896 prokaryotic ASVs from the 168 formal Tainan samples.
+One ASV (cb1f1527b17b7b8c17eb8a1f97858de6) aligned over less than 80% of
+its original sequence length against the bacterial reference and was excluded
+from the bacterial-reference placement step. Six ASVs failed the same
+independently applied threshold against the archaeal reference:
+35d77e353dcda991755760f3e2b87da3,
+65e88536e6bd112fb96c56b9b8818172,
+9198e468126a8dd38011e736b3da9035,
+9cc88f1a31bee65919fa47f00e127f98,
+cb1f1527b17b7b8c17eb8a1f97858de6, and
+fb61079d38d1dd33ccc8c69e2a7c95fb.
+
+Software
+--------
+PICRUSt2 2.6.3
+SEPP 4.5.5
+EPA-ng 0.3.8
+HMMER 3.4
+gappa 0.8.5
+
+Downstream hidden-state prediction
+----------------------------------
+PICRUSt2 predicts 16S marker-gene and EC-family copy numbers with maximum
+parsimony, edge exponent 0.5, and seed 100. Metagenome reconstruction uses a
+maximum NSTI of 2; pathway reconstruction uses MetaCyc v24, MinPath, and
+pathway gap filling.
+
+Bacterial placement implementation
+----------------------------------
+SEPP performed hierarchical bacterial reference-tree decomposition, HMM
+construction, fragment search, and fragment alignment. For each SEPP
+reference subtree, scripts/pplacer_epa_ng_compat.py translated the pplacer
+command emitted by SEPP into an EPA-ng command using the matching reference
+alignment, subtree, and official PICRUSt2 *.model file. EPA-ng was run with
+one thread per SEPP placement job, filter-min-lwr 0, and filter-max 10.
+EPA-ng placement executables were serialized with an interprocess memory lock
+while SEPP retained six-process parallelism for HMM search and alignment.
+SEPP's standard seppJsonMerger then combined the subtree jplace outputs.
+PICRUSt2 used gappa 0.8.5 to graft the merged placement onto the bacterial
+reference tree. The completed tree contains all 23,895 bacterial-aligned
+queries and all 26,868 reference leaves, with no missing, extra, or duplicated
+leaf identifiers.
+
+Archaeal placement implementation
+---------------------------------
+For the smaller archaeal reference, the standard PICRUSt2 whole-reference
+EPA-ng route was applied to the HMM-aligned queries. Queries were processed
+in chunks of 250 with six threads; EPA-ng retained placements to an
+accumulated likelihood weight of 0.99 and at most 100 placements per query.
+PICRUSt2 then parsed the jplace outputs and used gappa 0.8.5 to graft the
+placements. The completed tree contains all 23,890 archaeal-aligned queries
+and all 1,002 reference leaves, with no missing, extra, or duplicated leaf
+identifiers.
+
+Reason for the adapter
+----------------------
+The pplacer executable bundled with SEPP 4.5.5 segfaulted before reading any
+input on the current Linux 6.12 runtime. Direct whole-reference EPA-ng
+placement against the much larger bacterial reference exceeded the 14-GiB
+cgroup memory limit, including when query sequences were supplied in chunks
+of 250. EPA-ng placement on SEPP's decomposed bacterial subtrees completed
+within the available resources. Whole-reference EPA-ng against the smaller
+archaeal reference completed within the available resources.
+
+Reproducibility
+---------------
+The bacterial adapter is included at scripts/pplacer_epa_ng_compat.py. The
+SEPP configuration used for that run points its [pplacer] path to this
+adapter. Strict bacterial and archaeal leaf audits and tree checksums are
+retained under qc/. The complete PICRUSt2 downstream command and elapsed time
+are recorded in environment/picrust2_run_manifest.txt, and standard output/error
+are retained under logs/.

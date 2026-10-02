@@ -1,0 +1,82 @@
+{
+  "formal_sample_count": 168,
+  "formal_layers": [
+    "D",
+    "U"
+  ],
+  "nonformal_columns_excluded": [
+    "T2-202302-1-G",
+    "T2-202412-1-G",
+    "T3-202302-1-G",
+    "T3-202411-G",
+    "T3-202412-1-G",
+    "T4-202302-1-G",
+    "T4-202411-G",
+    "T4-202412-1-G",
+    "Water"
+  ],
+  "g_columns_excluded": [
+    "T2-202302-1-G",
+    "T2-202412-1-G",
+    "T3-202302-1-G",
+    "T3-202411-G",
+    "T3-202412-1-G",
+    "T4-202302-1-G",
+    "T4-202411-G",
+    "T4-202412-1-G"
+  ],
+  "blank_column_excluded": "Water",
+  "blank_library_size": 18814.0,
+  "total_ASV_records": 29461,
+  "positive_biological_ASVs": 25219,
+  "blank_positive_ASVs": 642,
+  "blank_only_ASVs": 171,
+  "shared_blank_biological_ASVs": 471,
+  "blank_enriched_sensitivity_ASVs": 109,
+  "organelle_or_eukaryotic_ASVs_positive_in_biological_samples": 1323,
+  "organelle_or_eukaryotic_read_fraction_overall": 0.1126497474691384,
+  "primary_PICRUSt2_ASV_count": 23896,
+  "blank_screened_PICRUSt2_ASV_count": 23787,
+  "biological_library_size": {
+    "minimum": 1775.0,
+    "median": 34664.25,
+    "mean": 37785.33928571428,
+    "maximum": 191776.0
+  },
+  "prokaryotic_retained_fraction": {
+    "minimum": 0.46167868091805453,
+    "median": 0.8894561517741282,
+    "mean": 0.8806827967572327,
+    "maximum": 0.9969331531344214
+  },
+  "blank_enriched_ASV_read_fraction_in_biological_samples": {
+    "minimum": 0.0,
+    "median": 0.00015736852700766715,
+    "mean": 0.001237205684035741,
+    "maximum": 0.022250537245877944
+  },
+  "duplicate_ASV_ID_records": 0,
+  "duplicate_sequence_records": 0,
+  "invalid_sequence_records": 0,
+  "sequence_length": {
+    "minimum": 1045,
+    "median": 1448.0,
+    "maximum": 1600
+  },
+  "blank_screening_sensitivity": {
+    "bray_curtis_pearson_r": 0.9999877933585215,
+    "bray_curtis_pearson_p": 0.0,
+    "bray_curtis_spearman_rho": 0.9999841170857938,
+    "bray_curtis_spearman_p": 0.0,
+    "shannon_absolute_difference_median": 0.0008967750198172197,
+    "shannon_absolute_difference_maximum": 0.0563208074206516
+  },
+  "input_sha256": {
+    "asv_table_168_profiles.csv.gz": "7e62ff9764eb65702ff510b9f09c4e99bcfbd7e6106687a5d3f9093ad160e61c",
+    "asv_table_9_nonformal_columns.csv.gz": "b426cba2e6ab04c0888a208b01549c2fd97433c4e43597e4eba262e3cd73002b",
+    "study_seqs_168_prokaryotic.fna": "e35a7014383585e9c03ae2044204fa61f40feaf8f81c82d471052c21141e34ac",
+    "study_abundance_168_prokaryotic.tsv": "077d3f48fd48b3517c7d6810e0ba502e9d09dacd8fad499a0c379b6c117be1c7",
+    "study_seqs_168_prokaryotic_blank_screened.fna": "c5b86dd8cc715c6372fd053efb475a5e3368460b1141bd3400650f4753411aeb",
+    "study_abundance_168_prokaryotic_blank_screened.tsv": "4c288a6dba0f9e99cb7fd1485ac8bbb556624e2eb563929d0e42d9ae58f0c83d"
+  }
+}

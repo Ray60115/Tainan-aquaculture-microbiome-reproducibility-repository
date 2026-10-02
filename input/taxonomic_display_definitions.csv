@@ -1,0 +1,51 @@
+Set,Representative_taxon,Target_definition,Target_format
+stage,Planktothrix NIVA-CYA 15 spiroides,Cyanobacteriota; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Planktothrix NIVA-CYA 15; Planktothrix NIVA-CYA 15 spiroides,unlabelled_full_path
+stage,Planktothrix sp014697575,Cyanobacteriota; Cyanobacteriia; Cyanobacteriales; Microcoleaceae; Planktothrix; Planktothrix sp014697575,unlabelled_full_path
+stage,Planktothrix NIVA-CYA 15,Cyanobacteriota; Cyanobacteriia; Cyanobacteriales; Phormidiaceae; Planktothrix NIVA-CYA 15,unlabelled_full_path
+stage,Polynucleobacter sp903875135,Pseudomonadota; Gammaproteobacteria; Burkholderiales; Burkholderiaceae; Polynucleobacter; Polynucleobacter sp903875135,unlabelled_full_path
+stage,Pirellula_B_754616 sp003671195,Planctomycetota; Planctomycetia; Pirellulales; Pirellulaceae; Pirellula_B_754616; Pirellula_B_754616 sp003671195,unlabelled_full_path
+stage,Laterigemmans baculatus,Planctomycetota; Planctomycetia; Pirellulales; Pirellulaceae; Laterigemmans; Laterigemmans baculatus,unlabelled_full_path
+stage,M30B19 sp018402565,Planctomycetota; Planctomycetia; Pirellulales; Pirellulaceae; M30B19; M30B19 sp018402565,unlabelled_full_path
+stage,Paracoccaceae family,Pseudomonadota; Alphaproteobacteria; Rhodobacterales; Paracoccaceae,unlabelled_full_path
+stage,Bin5 sp009840225,Chloroflexota; Anaerolineae; Caldilineales; Caldilineaceae; Bin5; Bin5 sp009840225,unlabelled_full_path
+stage,Aquiluna sp009923455,Actinomycetota; Actinomycetes; Actinomycetales; Microbacteriaceae; Aquiluna; Aquiluna sp009923455,unlabelled_full_path
+stage,JACTMZ01 sp018883245,Verrucomicrobiota; Verrucomicrobiae; Chthoniobacterales; JACTMZ01; JACTMZ01; JACTMZ01 sp018883245,unlabelled_full_path
+stage,ZLKRG44 sp018882625,Planctomycetota; Phycisphaerae; Phycisphaerales; SM1A02; ZLKRG44; ZLKRG44 sp018882625,unlabelled_full_path
+stage,Aliivibrio sp024206155,Pseudomonadota; Gammaproteobacteria; Enterobacterales; Vibrionaceae; Aliivibrio; Aliivibrio sp024206155,unlabelled_full_path
+stage,CL500-29 marine group,Actinomycetota; Acidimicrobiia; Microtrichales; Ilumatobacteraceae; CL500-29 marine group,unlabelled_full_path
+stage,F1-140-MAGs142 sp003671055,Planctomycetota; Phycisphaerae; Phycisphaerales; SM1A02; F1-140-MAGs142; F1-140-MAGs142 sp003671055,unlabelled_full_path
+stage,BACL14 sp001044335,Pseudomonadota; Gammaproteobacteria; Burkholderiales; Methylophilaceae; BACL14; BACL14 sp001044335,unlabelled_full_path
+stage,Trichormus B sp936914905,Cyanobacteriota; Cyanobacteriia; Cyanobacteriales; Nostocaceae; Trichormus_B; Trichormus B sp936914905,unlabelled_full_path
+stage,Caldilinea,Chloroflexota; Anaerolineae; Caldilineales; Caldilineaceae; Caldilinea,unlabelled_full_path
+stage,UBA2653 sp003489505,Pseudomonadota; Gammaproteobacteria; Legionellales; Legionellaceae; UBA2653; UBA2653 sp003489505,unlabelled_full_path
+stage,Geminocystis herdmanii,Cyanobacteriota; Cyanobacteriia; Cyanobacteriales; Cyanobacteriaceae; Geminocystis; Geminocystis herdmanii,unlabelled_full_path
+season,Planktothrix NIVA-CYA 15,Planktothrix NIVA-CYA 15 | phylum: Cyanobacteriota; class: Cyanobacteriia; order: Cyanobacteriales; family: Phormidiaceae; genus: Planktothrix NIVA-CYA 15,labelled_partial_path
+season,Cyanobium A 31525 gracile,Cyanobium A 31525 gracile | phylum: Cyanobacteriota; class: Cyanobacteriia; order: PCC-6307; family: Cyanobiaceae; genus: Cyanobium A 31525; species: Cyanobium A 31525 gracile,labelled_partial_path
+season,Paenisporosarcina quisquiliarum,Paenisporosarcina quisquiliarum | phylum: Bacillota; class: Bacilli; order: Bacillales A; family: Planococcaceae; genus: Paenisporosarcina; species: Paenisporosarcina quisquiliarum,labelled_partial_path
+season,Cyanobium PCC-6307,Cyanobium PCC-6307 | phylum: Cyanobacteriota; class: Cyanobacteriia; order: Synechococcales; family: Cyanobiaceae; genus: Cyanobium PCC-6307,labelled_partial_path
+season,Bin5 sp009840225,Bin5 sp009840225 | phylum: Chloroflexota; class: Anaerolineae; order: Caldilineales; family: Caldilineaceae; genus: Bin5; species: Bin5 sp009840225,labelled_partial_path
+season,Vulcanococcus sp000179235,Vulcanococcus sp000179235 | phylum: Cyanobacteriota; class: Cyanobacteriia; order: PCC-6307; family: Cyanobiaceae; genus: Vulcanococcus; species: Vulcanococcus sp000179235,labelled_partial_path
+season,Planococcus,Planococcus | phylum: Bacillota; class: Bacilli; order: Bacillales; family: Planococcaceae; genus: Planococcus,labelled_partial_path
+season,JACTMZ01 sp018883245,JACTMZ01 sp018883245 | phylum: Verrucomicrobiota; class: Verrucomicrobiae; order: Chthoniobacterales; family: JACTMZ01; genus: JACTMZ01; species: JACTMZ01 sp018883245,labelled_partial_path
+season,UBA2230 sp024230435,UBA2230 sp024230435 | phylum: Desulfobacterota; class: Desulfobacteria; order: Desulfobacterales; family: Desulfosarcinaceae; genus: UBA2230; species: UBA2230 sp024230435,labelled_partial_path
+season,Croceimicrobium sp018401735,Croceimicrobium sp018401735 | phylum: Bacteroidota; class: Bacteroidia; order: Flavobacteriales; family: Schleiferiaceae; genus: Croceimicrobium; species: Croceimicrobium sp018401735,labelled_partial_path
+season,Planktothrix NIVA-CYA 15 spiroides,Planktothrix NIVA-CYA 15 spiroides | phylum: Cyanobacteriota; class: Cyanobacteriia; order: Cyanobacteriales; family: Phormidiaceae; genus: Planktothrix NIVA-CYA 15; species: Planktothrix NIVA-CYA 15 spiroides,labelled_partial_path
+season,RFPI01 sp009926205,RFPI01 sp009926205 | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Burkholderiales; family: Methylophilaceae; genus: RFPI01; species: RFPI01 sp009926205,labelled_partial_path
+season,Pseudomonas,Pseudomonas | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Pseudomonadales; family: Pseudomonadaceae; genus: Pseudomonas,labelled_partial_path
+season,Pseudomonas E 647464 fluorescens,Pseudomonas E 647464 fluorescens | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Pseudomonadales A 650611; family: Pseudomonadaceae; genus: Pseudomonas E 647464; species: Pseudomonas E 647464 fluorescens,labelled_partial_path
+season,Aliivibrio sp024206155,Aliivibrio sp024206155 | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Enterobacterales; family: Vibrionaceae; genus: Aliivibrio; species: Aliivibrio sp024206155,labelled_partial_path
+season,GCA-002733105 sp014859375,GCA-002733105 sp014859375 | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Nitrosococcales; family: Methylophagaceae; genus: GCA-002733105; species: GCA-002733105 sp014859375,labelled_partial_path
+season,Isosphaeraceae,Isosphaeraceae | phylum: Planctomycetota; class: Planctomycetes; order: Isosphaerales; family: Isosphaeraceae,labelled_partial_path
+season,LD29,LD29 | phylum: Verrucomicrobiota; class: Verrucomicrobiia; order: Chthoniobacterales; family: Chthoniobacteraceae; genus: LD29,labelled_partial_path
+season,UBA2653 sp003489505,UBA2653 sp003489505 | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Legionellales; family: Legionellaceae; genus: UBA2653; species: UBA2653 sp003489505,labelled_partial_path
+season,Flavobacterium,Flavobacterium | phylum: Bacteroidota; class: Bacteroidia; order: Flavobacteriales; family: Flavobacteriaceae; genus: Flavobacterium,labelled_partial_path
+season,GWA1-52-35 sp001769805,GWA1-52-35 sp001769805 | phylum: Bdellovibrionota 473306; class: UBA1018; order: UBA1018; family: UBA1018; genus: GWA1-52-35; species: GWA1-52-35 sp001769805,labelled_partial_path
+season,Algoriphagus,Algoriphagus | phylum: Bacteroidota; class: Bacteroidia; order: Cytophagales; family: Cyclobacteriaceae; genus: Algoriphagus,labelled_partial_path
+season,CK06-06-Mud-MAS4B-21,CK06-06-Mud-MAS4B-21 | phylum: Balneolota; class: Balneolia; order: Balneolales; family: Balneolaceae; genus: CK06-06-Mud-MAS4B-21,labelled_partial_path
+season,Stenotrophomonas A 615274 rhizophila,Stenotrophomonas A 615274 rhizophila | phylum: Pseudomonadota; class: Gammaproteobacteria; order: Xanthomonadales; family: Xanthomonadaceae; genus: Stenotrophomonas A 615274; species: Stenotrophomonas A 615274 rhizophila,labelled_partial_path
+season,Mycobacterium,Mycobacterium | phylum: Actinomycetota; class: Actinobacteria; order: Mycobacteriales; family: Mycobacteriaceae; genus: Mycobacterium,labelled_partial_path
+season,JAHBVH01 sp021405325,JAHBVH01 sp021405325 | phylum: Chloroflexota; class: Anaerolineae; order: Caldilineales; family: Caldilineaceae; genus: JAHBVH01; species: JAHBVH01 sp021405325,labelled_partial_path
+season,UBA1450 sp002329205,UBA1450 sp002329205 | phylum: Patescibacteria; class: Microgenomatia; order: UBA1406; family: GWC2-37-13; genus: UBA1450; species: UBA1450 sp002329205,labelled_partial_path
+season,UBA961 sp009919265,UBA961 sp009919265 | phylum: Bacteroidota; class: Kapaibacteriia; order: Kapaibacteriales; family: UBA961; genus: UBA961; species: UBA961 sp009919265,labelled_partial_path
+season,Wandonia haliotis,Wandonia haliotis | phylum: Bacteroidota; class: Bacteroidia; order: Flavobacteriales B 877923; family: Crocinitomicaceae; genus: Wandonia; species: Wandonia haliotis,labelled_partial_path
+season,QHVH01 sp003222245,QHVH01 sp003222245 | phylum: Acidobacteriota; class: Blastocatellia; order: UBA7656; family: UBA7656; genus: QHVH01; species: QHVH01 sp003222245,labelled_partial_path

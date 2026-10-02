@@ -1,0 +1,41 @@
+Blank-screened functional sensitivity rerun
+===========================================
+run_date=2026-10-02
+picrust2_version=2.6.3
+glpk_version=5.0
+picrust2_python_version=3.12.13
+picrust2_numpy_version=2.5.1
+picrust2_pandas_version=2.3.3
+picrust2_scipy_version=1.18.0
+downstream_numpy_version=2.3.5
+downstream_pandas_version=2.2.3
+downstream_scipy_version=1.16.3
+picrust2_source_archive=https://zenodo.org/records/17738266
+picrust2_source_archive_md5=02538a3f944056c600afbac5114d7237
+picrust2_default_files_archive=https://zenodo.org/records/15189574
+picrust2_default_files_archive_md5=31c441575d54a604ddab80487271ba0f
+regroup_map=ec_level4_to_metacyc_rxn_new.tsv
+regroup_map_sha256=dbea809a923ea4f1fe2300c97b39e08ad6c5fd75f1a6e56bde97bed19a53b6b0
+pathway_map=metacyc_pathways_structured_filtered_v24.txt
+pathway_map_sha256=9020a8b03eb16c6cf8b9013661c85dba76f1fad9355d5ca950617e5ca7a1d3cc
+combined_EC_predicted_sha256=cf24a9ecbec20cab4949296b9ba61d764545f5f5e3573c6baddbbc8494c1230b
+blank_screened_abundance_sha256=4c288a6dba0f9e99cb7fd1485ac8bbb556624e2eb563929d0e42d9ae58f0c83d
+blank_screened_pred_metagenome_sha256=4db9bd46a48e3e09be6120b7eb9b936652b74b4624d1fe09d4359f67e5b786b1
+blank_screened_pathway_abundance_sha256=5a0d18f6f7b5f550e8ea724711b2d91eb5106e02eab2b613326ffb938ca31d5c
+sensitivity_summary_sha256=67be152b1c5bbaf36b1381cabaa67a13b0281277800efcbdb90e10dc19b406d1
+primary_input_asvs=23896
+blank_enriched_asvs_removed=109
+blank_screened_input_asvs=23787
+primary_metacyc_pathways=556
+blank_screened_metacyc_pathways=555
+common_samples=168
+sample_pair_distances=14028
+pairwise_bray_curtis_spearman_rho=0.9998773041652059
+compared_test_classifications=22
+classification_changes_at_0.05=0
+
+The official PICRUSt2 source archive and default mapping files were checksum
+verified before execution. The two mapping files have identical SHA-256
+checksums in the official v2.6.2 default-files archive and v2.6.3 source
+archive. The rerun used the commands implemented in
+run_blank_screened_functional_sensitivity.sh and code/06-07.

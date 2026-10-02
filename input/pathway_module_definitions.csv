@@ -1,0 +1,28 @@
+Module,Pathway_ID,Expected_MetaCyc_name,Selection_rationale
+Nitrate reduction,DENITRIFICATION-PWY,nitrate reduction I (denitrification),Prespecified inorganic-nitrogen transformation relevant to pond nitrogen removal and retention.
+Nitrate reduction,PWY-7084,nitrifier denitrification,Prespecified inorganic-nitrogen transformation relevant to pond nitrogen removal and retention.
+Nitrate reduction,PWY490-3,nitrate reduction VI (assimilatory),Prespecified inorganic-nitrogen transformation relevant to pond nitrogen removal and retention.
+Sulfur oxidation and assimilation,PWY-5304,superpathway of sulfur oxidation (Acidianus ambivalens),Prespecified sulfur transformation relevant to reduced and oxidized sulfur pools in pond water.
+Sulfur oxidation and assimilation,SO4ASSIM-PWY,assimilatory sulfate reduction I,Prespecified sulfur transformation relevant to reduced and oxidized sulfur pools in pond water.
+Sulfur oxidation and assimilation,SULFATE-CYS-PWY,superpathway of sulfate assimilation and cysteine biosynthesis,Prespecified sulfur transformation relevant to reduced and oxidized sulfur pools in pond water.
+Methanogenesis,METH-ACETATE-PWY,methanogenesis from acetate,Prespecified anaerobic carbon-transformation potential; interpreted only as genomic potential inferred from 16S composition.
+Methanogenesis,METHANOGENESIS-PWY,methanogenesis from H2 and CO2,Prespecified anaerobic carbon-transformation potential; interpreted only as genomic potential inferred from 16S composition.
+C1 assimilation and oxidation,PWY-1622,formaldehyde assimilation I (serine pathway),Prespecified one-carbon metabolism associated with methylotrophic and related carbon processing.
+C1 assimilation and oxidation,PWY-1861,formaldehyde assimilation II (assimilatory RuMP Cycle),Prespecified one-carbon metabolism associated with methylotrophic and related carbon processing.
+C1 assimilation and oxidation,PWY-1882,superpathway of C1 compounds oxidation to CO2,Prespecified one-carbon metabolism associated with methylotrophic and related carbon processing.
+C1 assimilation and oxidation,PWY-7616,methanol oxidation to carbon dioxide,Prespecified one-carbon metabolism associated with methylotrophic and related carbon processing.
+C1 assimilation and oxidation,RUMP-PWY,formaldehyde oxidation I,Prespecified one-carbon metabolism associated with methylotrophic and related carbon processing.
+Fermentation and short-chain products,ANAEROFRUCAT-PWY,homolactic fermentation,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,CENTFERM-PWY,pyruvate fermentation to butanoate,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,FERMENTATION-PWY,mixed acid fermentation,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,P108-PWY,pyruvate fermentation to propanoate I,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,P122-PWY,heterolactic fermentation,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,P163-PWY,L-lysine fermentation to acetate and butanoate,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,P461-PWY,"hexitol fermentation to lactate, formate, ethanol and acetate",Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,PWY-5100,pyruvate fermentation to acetate and lactate II,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,PWY-5676,acetyl-CoA fermentation to butanoate II,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,PWY-5677,succinate fermentation to butanoate,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,PWY-6588,pyruvate fermentation to acetone,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Fermentation and short-chain products,PWY-6590,superpathway of Clostridium acetobutylicum acidogenic fermentation,Prespecified anaerobic organic-carbon metabolism producing lactate or short-chain fermentation products.
+Compatible-solute metabolism,P101-PWY,ectoine biosynthesis,Prespecified osmotic-acclimation potential relevant to the measured salinity-related gradient.
+Compatible-solute metabolism,PWY-3661,glycine betaine degradation I,Prespecified compatible-solute acquisition or turnover relevant to osmotic acclimation.

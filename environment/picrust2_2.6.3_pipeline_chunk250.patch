@@ -1,0 +1,16 @@
+--- picrust2/pipeline.py	2026-07-28
++++ picrust2/pipeline.py	2026-07-28
+@@
+-                      "--chunk_size", str(5000),
++                      "--chunk_size", str(250),
+@@
+-                      "--chunk_size", str(5000),
++                      "--chunk_size", str(250),
+
+This resource-only patch changes the number of query sequences passed to each
+EPA-NG chunk for both bacterial and archaeal placements. It does not alter the
+reference alignments, trees, substitution models, placement algorithm,
+hidden-state prediction, NSTI threshold, copy-number normalization, MinPath, or
+MetaCyc pathway inference. It was required because the PICRUSt2 2.6.3 wrapper
+hard-codes a chunk size of 5,000, which exceeded the 14-GiB cgroup memory limit
+for this 23,896-ASV full-length 16S dataset.
